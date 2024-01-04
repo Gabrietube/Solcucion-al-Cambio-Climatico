@@ -7,4 +7,4 @@ Este proyecto a sido creado como una forma de solucionar el problema del cambio 
 > Un bot de discord que te diga todo sobre el cambio climatico y poque debemos reducirlo
 
 ## Esta es la idea que elegi:
-> Una calculadora que te dice cuanto contribuyes al cambio climatico
+> Una calculadora que te dice cuanto contribuyes al cambio climatico, la cual de dira aproximadamente cuanto co2 produces y en cuanto contribuyes al cambio climatico
