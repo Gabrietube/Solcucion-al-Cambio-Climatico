@@ -20,4 +20,4 @@ Este proyecto a sido creado como una forma de solucionar el problema del cambio 
 - Calculadora de la contaminacion ambiental
 
 ## Los artículos de la guía que me ayudarán durante el desarrollo
-Es una calculadora que te dice en cuanto contaminas ([https://enlace_al_artículo](https://github.com/GitKodland/calculator_esp)https://github.com/GitKodland/calculator_esp)
+Es una calculadora que te dice en cuanto contaminas (https://github.com/GitKodland/calculator_esp)
