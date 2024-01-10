@@ -8,3 +8,16 @@ Este proyecto a sido creado como una forma de solucionar el problema del cambio 
 
 ## Esta es la idea que elegi:
 > Una calculadora que te dice cuanto contribuyes al cambio climatico, la cual de dira aproximadamente cuanto co2 produces y en cuanto contribuyes al cambio climatico
+
+## Este es el tipo de mi proyecto:
+> Una calculadora
+
+## Las bibliotecas que voy a utilizar:
+- Flask
+- Jinja
+
+## Referencias útiles:
+- Calculadora de la contaminacion ambiental
+
+## Los artículos de la guía que me ayudarán durante el desarrollo
+Es una calculadora que te dice en cuanto contaminas ([https://enlace_al_artículo](https://github.com/GitKodland/calculator_esp)https://github.com/GitKodland/calculator_esp)
