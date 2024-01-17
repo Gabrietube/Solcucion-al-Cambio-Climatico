@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <title>El Cambio Climatico</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__text">
+      <h1>El Cambio Climatico</h1>
+    </div>
+  </header>
+  <main>
+    {% block content %}
+    <div class="rectangulo-informacion-1">
+      <h2>¿Qué es el calentamiento global?</h2>
+      <p>El calentamiento global es el aumento de la temperatura media de la Tierra. Este aumento se debe al efecto invernadero, un fenómeno natural que atrapa el calor de la radiación solar. Sin embargo, las actividades humanas, como la quema de combustibles fósiles, están aumentando las emisiones de gases de efecto invernadero, lo que está acelerando el calentamiento global.</p>
+    </div>
+    <div class="rectangulo-informacion-2">
+    <h2>¿Cuáles son las consecuencias del calentamiento global?</h2>
+    <ul>
+      <li>El aumento del nivel del mar, que puede provocar inundaciones y la pérdida de tierras costeras.</li>
+      <li>El aumento de la frecuencia e intensidad de eventos meteorológicos extremos, como las olas de calor, las sequías, las inundaciones y los huracanes.</li>
+      <li>El cambio en los patrones de lluvia, que puede provocar escasez de agua en algunas regiones y aumento de las inundaciones en otras.</li>
+      <li>La pérdida de biodiversidad, ya que muchas especies no pueden adaptarse al cambio climático.</li>
+    </ul>
+    </div>
+    <div class="rectangulo-informacion-3">
+    <h2>¿Por qué es importante reducir el calentamiento global?</h2>
+    <p>El calentamiento global es un problema grave que tiene el potencial de causar daños irreversibles al planeta. Por eso, es importante tomar medidas para reducir las emisiones de gases de efecto invernadero y mitigar los efectos del cambio climático.</p>
+    <p>Algunas de las medidas que se pueden tomar para reducir el calentamiento global incluyen:</p>
+    <ul>
+      <li>Reducir el uso de combustibles fósiles, como el carbón, el petróleo y el gas natural.</li>
+      <li>Incorporar energías renovables, como la energía solar y la energía eólica, a la matriz energética.</li>
+      <li>Mejorar la eficiencia energética, por ejemplo, mediante la instalación de sistemas de aislamiento térmico en los edificios.</li>
+      <li>Plantar árboles, ya que absorben dióxido de carbono de la atmósfera.</li>
+    </ul>
+    <p>Todos podemos contribuir a reducir el calentamiento global haciendo cambios en nuestros hábitos cotidianos, como:</p>
+    <ul>
+      <li>Apagar las luces y los electrodomésticos cuando no los estemos usando.</li>
+      <li>Reducir el consumo de carne, ya que la ganadería es una de las principales fuentes de emisiones de gases de efecto invernadero.</li>
+      <li>Transportarse en bicicleta, a pie o en transporte público, en lugar de usar el automóvil.</li>
+    </ul>
+    <p>Tomando medidas individuales y colectivas, podemos ayudar a proteger el planeta y garantizar un futuro sostenible para las generaciones futuras.</p>
+    </div>
+    <div class="rectangulo-informacion-4">
+      <h2>¿En cuanto contribuimos al cambio climatico?</h2>
+      <p>Si usted esta interesado en saber en cuanto constribuye al cambio climatico puede presionar el sigiente boton que lo redijira a un formulario el cual al completar le dira en cuanto contribuye.</p>
+      <a href="{{ url_for('form') }}" class = "mi-boton">Formulario</a>
+    </div>
+    {% endblock %}
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>

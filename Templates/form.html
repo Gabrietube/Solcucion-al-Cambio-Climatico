@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <title>Formulario sobre el cambio climático</title>
+</head>
+  <body>
+  <h1>¿Cuánto contribuyes al cambio climático?</h1>
+
+  <form action="/" method="POST">
+    <div class="pregunta">
+      <label for="consumo-electrico">¿Cuántas horas al dia utilizas la electricidad aprox?</label>
+      <input type="number" name="consumo-electrico" id="consumo-electrico" min="0" max="24" step="1">
+    </div>
+
+    <div class="pregunta">
+      <label for="consumo-agua">¿Cuánto litros de agua utilizas al dia?</label>
+      <input type="number" name="consumo-agua" id="consumo-agua" min="0" max="200" step="5">
+    </div>
+
+    <div class="pregunta">
+      <label for="transporte">¿Cuántas veces en promedio viajas en transporte privado a la semana?</label>
+      <input type="number" name="transporte" id="transporte" min="0" max="50" step="2">
+    </div>
+
+    <div class="pregunta">
+      <label for="comida">¿Cuántas veces consumes carne a la semana en promedio?</label>
+      <input type="number" name="comida" id="comida" min="0" max="21" step="1">
+    </div>
+
+    <input type="submit" value="Enviar" action="/result" method="POST">
+
+  </form>
+</body>
+</html>
