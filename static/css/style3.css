@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  background-color: #fff;
+  color: #272727;
+}
+
+h1, h2, p {
+  margin: 10;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+    font-size: 100px;
+}
+
+.header {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #CCE59D;
+  padding: 25vh 30px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__text {
+  display: flex;
+  flex-direction: center;
+  gap: 60px;
+  width: fit-content;
+  text-align: center;
+}
+
+main {
+  padding: 0 30px 1000px;
+}
+
+.main__title {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.rectangulo-informacion-1 {
+  margin: 0 auto;  
+  display: block;  
+  width: 750px;
+  height: 150px;
+  background-color: #CCE59D;
+  border: 1px solid #CCE59D;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.rectangulo-informacion-2 {
+  margin: 0 auto;  
+  display: block;
+  width: 750px;
+  height: 325px;
+  background-color: #CCE59D;
+  border: 1px solid #CCE59D;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.rectangulo-informacion-3 {
+  margin: 0 auto;  
+  display: block;
+  width: 750px;
+  height: 50px;
+  background-color: #CCE59D;
+  border: 1px solid #CCE59D;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.rectangulo-informacion-4 {
+  margin: 0 auto;  
+  display: block;
+  width: 750px;
+  height: 175px;
+  background-color: #CCE59D;
+  border: 1px solid #CCE59D;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.mi-boton {
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(0, 183, 255);
+}
