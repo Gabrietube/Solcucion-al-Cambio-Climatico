@@ -2,28 +2,49 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="../static/css/style3.css">
   <title>Resultado del formulario</title>
 </head>
 <body>
-  <h1>Resultado del formulario</h1>
+  <header class="header">
+    <div class="header__text">
+      <h1>Resultado</h1>
+    </div>
+  </header>
+  {% block content %}
+  <div class="rectangulo-informacion-1">
+    <p>El consumo eléctrico promedio es de <strong>{{consumo_electrico}}</strong> horas al día.</p>
+    <p>El consumo de agua promedio es de <strong>{{consumo_agua}}</strong> litros al día.</p>
+    <p>El uso del transporte privado promedio es de <strong>{{transporte}}</strong> veces a la semana.</p>
+    <p>El consumo de carne promedio es de <strong>{{comida}}</strong> veces a la semana.</p>
+  </div>
+  <div class="rectangulo-informacion-2">
+    <h2>Contribución al cambio climático</h2>
 
-  <p>El consumo eléctrico promedio es de <strong>{{consumo_electrico}}</strong> horas al día.</p>
-  <p>El consumo de agua promedio es de <strong>{{consumo_agua}}</strong> litros al día.</p>
-  <p>El uso del transporte privado promedio es de <strong>{{transporte}}</strong> veces a la semana.</p>
-  <p>El consumo de carne promedio es de <strong>{{comida}}</strong> veces a la semana.</p>
+    <p>La contribución al cambio climático es de <strong>{{porcentaje}}</strong>%.</p>
 
-  <h2>Contribución al cambio climático</h2>
+    <p>Para calcular la contribución al cambio climático, se han utilizado los siguientes factores:</p>
 
-  <p>La contribución al cambio climático es de <strong>{{porcentaje}}</strong>%.</p>
+    <ul>
+      <li>El consumo eléctrico se ha multiplicado por el factor de emisión de CO2 de la electricidad en España, que es de 0,58 kg/kWh.</li>
+      <li>El consumo de agua se ha multiplicado por el factor de emisión de CO2 del agua, que es de 0,0015 kg/L.</li>
+      <li>El uso del transporte privado se ha multiplicado por el factor de emisión de CO2 del transporte privado, que es de 1,0 kg/km.</li>
+      <li>El consumo de carne se ha multiplicado por el factor de emisión de CO2 de la carne, que es de 15 kg/kg.</li>
+    </ul>
+  </div>
 
-  <p>Para calcular la contribución al cambio climático, se han utilizado los siguientes factores:</p>
+  <div class="rectangulo-informacion-3">
+    <p>Estos factores se han obtenido de diversas fuentes, como la Agencia Europea del Medio Ambiente y el Ministerio para la Transición Ecológica y el Reto Demográfico.</p>
+  </div>
 
-  <ul>
-    <li>El consumo eléctrico se ha multiplicado por el factor de emisión de CO2 de la electricidad en España, que es de 0,58 kg/kWh.</li>
-    <li>El consumo de agua se ha multiplicado por el factor de emisión de CO2 del agua, que es de 0,0015 kg/L.</li>
-    <li>El uso del transporte privado se ha multiplicado por el factor de emisión de CO2 del transporte privado, que es de 1,0 kg/km.</li>
-    <li>El consumo de carne se ha multiplicado por el factor de emisión de CO2 de la carne, que es de 15 kg/kg.</li>
-  </ul>
+  <div class="rectangulo-informacion-4">
+    <h2>Bot discord</h2>
+    <p>Si usted esta interesado en tener un bot en discord el cual lo ayude a reducir en cuanto constribuye el cambio climatico puede agregar a su servidor de discord un bot a travez del siguiente boton.</p>
+    <a href="https://discord.com/oauth2/authorize?client_id=1197316258538987581&permissions=8&scope=bot" class="mi-boton">Bot</a>
+  </div>
+  {% endblock %}
+</body>
+</html>
 
   <p>Estos factores se han obtenido de diversas fuentes, como la Agencia Europea del Medio Ambiente y el Ministerio para la Transición Ecológica y el Reto Demográfico.</p>
 </body>
