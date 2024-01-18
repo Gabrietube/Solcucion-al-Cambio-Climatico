@@ -2,13 +2,17 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="../static/css/style2.css">
   <title>Formulario sobre el cambio climático</title>
 </head>
+  <header class="header">
+    <div class="header__text">
+      <h1>¿En cuanto contribuyes al cambio climatico?</h1>
+    </div>
+</header>
   <body>
-  <h1>¿Cuánto contribuyes al cambio climático?</h1>
 
-  <form action="/" method="POST">
+  <form action="/result" method="POST">
     <div class="pregunta">
       <label for="consumo-electrico">¿Cuántas horas al dia utilizas la electricidad aprox?</label>
       <input type="number" name="consumo-electrico" id="consumo-electrico" min="0" max="24" step="1">
