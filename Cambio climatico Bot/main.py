@@ -48,4 +48,4 @@ async def on_message(message):
     else:
         await message.channel.send("No reconozco ese comando. Intenta usar $hello, $cambio-climatico o $consejos.")
 
-client.run('MTE5NzMxNjI1ODUzODk4NzU4MQ.GofzP7.XNQPP2TT-pY3UtHOm3Wo6Tus5a2nUeipwpVLBM')  # Reemplaza TU_TOKEN_DE_DISCORD con tu token real
+client.run('Token')  # Reemplaza TU_TOKEN_DE_DISCORD con tu token real
