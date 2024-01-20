@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 
-
 # La variable intents almacena los privilegios del bot
 intents = discord.Intents.default()
 intents.message_content = True
@@ -12,14 +11,23 @@ client = discord.Client(intents=intents)
 @client.event
 async def on_ready():
     print(f'Hemos iniciado sesión como {client.user}')
+    mensaje = "**¡El bot de cambio climático se ha iniciado!.Los comandos son los siguientes:**\n" \
+                  "-$comands\n" \
+                  "-$cambio-climatico.\n" \
+                  "-$consejos." 
+    await client.get_channel(1182717170581512317).send(mensaje)
 
 @client.event
 async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('$hello'):
-        await message.channel.send("Hola! Estoy aquí para ayudarte a aprender más sobre el cambio climático.")
+    if message.content.startswith('$comands'):
+        mensaje = "**¡Hola!.Los comandos son los siguientes:**\n" \
+                  "-$comands\n" \
+                  "-$cambio-climatico.\n" \
+                  "-$consejos."
+        await message.channel.send(mensaje)
 
     elif message.content.startswith('$cambio-climatico'):
         mensaje = "**¿Qué es el cambio climático?**\n" \
@@ -46,6 +54,6 @@ async def on_message(message):
         await message.channel.send(mensaje)
 
     else:
-        await message.channel.send("No reconozco ese comando. Intenta usar $hello, $cambio-climatico o $consejos.")
+        await message.channel.send("No reconozco ese comando. Intenta usar $comands, $cambio-climatico o $consejos.")
 
 client.run('Token')  # Reemplaza TU_TOKEN_DE_DISCORD con tu token real
