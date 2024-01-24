@@ -21,3 +21,6 @@ Este proyecto a sido creado como una forma de solucionar el problema del cambio 
 
 ## Los artículos de la guía que me ayudarán durante el desarrollo
 Es una calculadora que te dice en cuanto contaminas (https://github.com/GitKodland/calculator_esp)
+
+## Presentacion (Youtube):
+Video https://youtu.be/HEE3eNyRvLc
