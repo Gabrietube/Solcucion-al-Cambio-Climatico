@@ -15,6 +15,7 @@ Este proyecto a sido creado como una forma de solucionar el problema del cambio 
 ## Las bibliotecas que voy a utilizar:
 - Flask
 - Jinja
+- Discord
 
 ## Referencias útiles:
 - Calculadora de la contaminacion ambiental
